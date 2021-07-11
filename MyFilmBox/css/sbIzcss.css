@@ -1,0 +1,37 @@
+.ult_comentarios h3 {
+    font-family: OpenSans;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    word-spacing: 3px;
+    color: black;
+    font-weight: bolder;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+    margin-left: 2%;
+}
+
+
+#sidebar-left {
+    padding: 10px;
+    float: left;
+    width: 17%;
+    box-shadow: 0 4px 8px 0 rgb(128, 128, 128);
+    height: 100%;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: #dddddd;
+}
+
+div#sidebar-left a, div#sidebar-left a:visited {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+} 
+
+div#sidebar-left a:hover {
+	color: black;
+	text-decoration: underline;
+} 

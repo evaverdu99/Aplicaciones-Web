@@ -1,0 +1,222 @@
+@font-face{
+    src: url(font/OpenSans/OpenSans-Light.ttf);
+    font-family: OpenSans;
+}
+
+div#titlebar {
+	height: 70px;
+	background-color: #3f3f3f;
+    color: white;
+    padding: 1.4%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+div#tittle {
+    
+    font-style: arial;
+    margin-left:20%;
+    color: #f19532;
+    font-family: Verdana, Geneva, sans-serif;
+	font-size: 36px;
+	letter-spacing: 4.2px;
+	word-spacing: 3.6px;
+	font-weight: 300;
+	text-decoration: none solid rgb(68, 68, 68);
+	font-style: normal;
+	font-variant: small-caps;
+    text-transform: none;
+    float:left;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+
+div#access{
+    display: flex;
+    align-items: center;
+    margin-left: 25%;
+    font-family: OpenSans; 
+    font-size: 20px;
+	letter-spacing: 0.4px;
+	word-spacing: 3px;
+	color: #f19532;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+    text-transform: none;
+    box-sizing: border-box;
+      
+    
+}
+
+div#user{
+    position:absolute;
+    margin-left:95%;
+    display:flex;
+}
+
+a{
+    font-family: OpenSans; 
+    font-size: 20px;
+    font-weight: 400;
+	letter-spacing: 0.4px;
+	word-spacing: 3px;
+	color: #fff;
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+    text-transform: none;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#f19532;
+    transition:0.5s ease-in-out;
+    
+
+}
+
+.container-3{
+    width: 450px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    margin-left: 5%;
+}
+
+.container-3 input#search{
+    width: 400px;
+    height: 35px;
+    background: #ffffff;
+    border: none;
+    font-size: 10pt;
+    float: left;
+    color: #262626;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 30px;
+    color: #262626;
+}
+
+.container-3 input#search::-webkit-input-placeholder {
+    color: #65737e;
+}
+
+.container-3 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #65737e;  
+}
+
+.container-3 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #65737e;  
+}
+
+.container-3 input#search:-ms-input-placeholder {  
+    color: #65737e;  
+}
+
+.container-3 .icon{
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 9px;
+    z-index: 1;
+    color: hsl(36, 98%, 66%);
+
+    -webkit-transition: all .55s ease;
+    -moz-transition: all .55s ease;
+    -ms-transition: all .55s ease;
+    -o-transition: all .55s ease;
+    transition: all .55s ease;
+}
+
+.container-3 input#search:focus, .container-3 input#search:active{
+    outline:none; 
+}
+
+.container-3:hover .icon{
+    color: hsl(36, 98%, 54%);
+
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -moz-transform:scale(1.5); /* Firefox */
+    -ms-transform:scale(1.5); /* IE 9 */
+    -o-transform:scale(1.5); /* Opera */
+    transform:scale(1.5);
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: inherit;
+    color: white;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    -webkit-transition: color 1s; /* For Safari 3.0 to 6.0 */
+    transition: color 1s; /* For modern browsers */
+    transition: all .2s ease-in-out;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    color:#f19532;
+    transform: scale(1.1);
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right:0;
+    animation-name: menuanimation;
+    animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+    transform-origin: top center;
+}
+
+
+
+
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    font-size:15px; 
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+
+@keyframes menuanimation{
+    0%{
+        opacity: 0;
+        transform: scaleY(0.3) translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: scaleY(1) translateY(0px);
+    }
+}

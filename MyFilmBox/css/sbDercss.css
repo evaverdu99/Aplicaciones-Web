@@ -1,0 +1,7 @@
+div#sidebar-right {
+	padding: 10px;
+	float: right;
+	width: 15%;
+	height: 600px;
+	background-color: #dddddd;
+}

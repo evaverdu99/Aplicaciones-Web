@@ -1,0 +1,35 @@
+ 
+Gestión de usuarios.
+-Login: inicio de sesión de usuarios.
+-Registro : registro de usuarios.
+-Logout.
+-Control de acceso de usuarios para administradores con posibilidad de cambiar el rol de cada uno de ellos.
+
+
+Facilitar la navegación en la página.
+-Barra de búsqueda: para buscar palabras claves en la web y poder encontrar películas.
+-Filtro de catálogo: para filtrar los resultados obtenidos en la página de catálogo.
+-Filtro de tienda: para filtrar los resultados obtendios en la página de la tienda.
+-Validaciones de formulario con javascript.
+-Funcionalidad añadida a la barra de búsqueda: ahora no solo busca coincidencias exactas sino que en caso de no encontrarlas, devuelve búsquedas relacionadas.
+
+
+Tienda.
+-Página de tienda con todos los productos disponibles.
+-Página de visualización de cada producto de la tienda.
+-Página de pago (ficticia) por si se quisiese comprar algún producto.
+-Funcionalidad añadir Producto para usuarios administradores.
+-Añadir comentarios.
+
+
+Películas.
+-Página de visualización de cada producto.
+-Catálogo de películas disponibles.
+-Página de película, con descripción detallada de la misma.
+-Comentarios en la película para usuarios registrados.
+-Página de añadir película para administradores de la página web.
+
+Index.
+-Visualización de un banner publiciatrio.
+-Visualización de las últimas películas.
+-Visualización de los últimos comentarios con sus usuarios correspondientes. 

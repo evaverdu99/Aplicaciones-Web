@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  margin-bottom: 6px;
+  margin: 0px;
+	padding: 0px;
+}
+
+div#contenedor {
+min-height: 65vh;
+}
+
+a{
+	color:white;
+}
+
+body {
+  background-color: #f1f1f1;
+  color: #000000; 
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+ 
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+  
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: f1f1f1;
+  padding: 5px;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+  
+}
+
+h5{
+	font-family:OpenSans;
+}
+
+
+.card-peli {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  
+  height:430px;
+  width: 200px;
+  
+
+  margin-bottom: 30px;
+  background-color:white;
+}
+
+.card-peli:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width: 200px;
+  height: 300px;
+}
+
+.container-card {
+  padding: 2px 16px;
+  background-color:white;
+  border-radius: 0 0 5px 5px;
+
+  
+}
+
+h4{
+	font-size: 10 px;
+}
+
+.container-card a{
+	color:black;
+	font-weight: bold;
+}

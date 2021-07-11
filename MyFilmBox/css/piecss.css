@@ -1,0 +1,52 @@
+@font-face{
+    src: url(font/OpenSans/OpenSans-Italic.ttf);
+    font-family: OpenSansItalic;
+}
+
+@font-face{
+    src: url(font/OpenSans/OpenSans-Regular.ttf);
+    font-family: OpenSansRegular;
+}
+
+
+
+div#pie {
+	clear: both;
+	padding-top: 2.5rem;
+	padding-bottom: 2.5rem;
+	background-color: #303030;
+	color: white;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	
+}
+
+.infoProyecto p{
+	font-family: OpenSansRegular;
+	font-size: 12px;
+}
+.infoProyecto a{
+	font-family: OpenSansItalic;
+	font-size: 12px; 
+	text-decoration: none;
+	color : #e99330;
+}
+
+.infoParticipantes{
+	margin-top: 10px;
+}
+.infoParticipantes p{
+	font-family: OpenSansRegular;
+	font-size: 12px;
+	margin:2px !important;  
+}
+
+.infoParticipantes a{
+	font-family: OpenSansItalic;
+	font-size: 12px; 
+	text-decoration: none;
+	color : #e99330;
+}
+

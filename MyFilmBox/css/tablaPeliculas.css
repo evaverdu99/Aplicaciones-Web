@@ -1,0 +1,156 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+@font-face{
+    src: url(font/OpenSans/OpenSans-Light.ttf);
+    font-family: OpenSansLight;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+
+  th{    
+    text-align: left;
+    padding: 8px;
+    font-size:16px;
+
+  }
+  td {
+    text-align: left;
+    padding: 8px;
+    font-size:14px;
+  }
+
+  tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+  body {
+	background: #eeeeee;
+	font-family: OpenSansLight;
+	margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div#tittle{
+    font-family:arial;
+}
+
+div#tablaPeliculas_panel{
+    background-color: white;
+    width: 70%;
+     margin-top: 2%;
+    margin-left:15%;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+
+div#tablaPeliculas_panel a{
+    box-shadow: rgba(0,0,0,0.2);
+}
+.fa-eye{
+    color:#6b99df;
+    widows: 10px;
+}
+.fa-trash-alt{
+    color: #da8874fa;
+    padding-left: 30%;
+    
+}
+.fa-trash-alt:hover{
+  color: red;
+}
+.fa-eye:hover{
+  color:#2432f3d5;
+  widows: 10px;
+}
+
+* {
+	box-sizing: border-box;
+}
+.fa-fast-forward, .fa-forward, .fa-backward {
+  color : #f19532;
+  margin:1%;
+}
+.fa-sort {
+  color : #3f3f3f77;
+  margin-top: 7px;;
+}
+
+.fa-forward {
+  float:right;
+}
+.fa-fast-forward {
+  float:right;
+}
+
+div#numregs{
+  margin-left:45%;
+  margin-top:1%;
+}
+
+div#prev, div#numregs, div#next{
+  float:left;
+}
+div#prev{
+	margin-left:2%;
+	margin-top:1%;
+}
+div#next{
+	margin-right:2%;
+	margin-top:1%;
+}
+
+div#numregs a{
+  font-size : 14px;
+  text-decoration:none;
+  color: #f19532;
+  overflow:inherit;
+}
+
+div#controlTable{
+
+	  width: 70%;
+ margin-left:15%;
+}
+
+div#contButton{
+  
+  margin-left:15%;
+  width: 70%;
+}
+
+div#next{
+	float:right;
+}
+
+
+.button{
+  border:none; 
+  width: 130px;
+  color: #F19532; 
+  font-size:15px; 
+  background: #fff;
+  padding: 12px;
+  border-radius: 100px;
+  cursor:pointer;  
+  border: 2px solid #F19532;
+  transition: background 0.5s ease-in-out;
+  margin: auto;
+  display: block;
+
+  margin-top:5%;
+  margin-bottom: 15px;
+}
+
+
+.button:hover{
+   background: #F19532;
+   color: #fff; 
+}

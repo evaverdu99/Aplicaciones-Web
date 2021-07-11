@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+@font-face{
+    src: url(font/OpenSans/OpenSans-Light.ttf);
+    font-family: OpenSansLight;
+}
+
+body {
+	background: #eeeeee;
+	font-family: OpenSansLight;
+	margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.in{
+	float:left;
+}
+
+.contenedor{
+
+	min-height: 100vh;
+}
+
+.card_user {
+	background-color: #fff;
+	border-radius: 4px;
+	width: 100%;
+	float:left;
+	position: relative;
+	color: #444;
+	margin-top:0.5%;
+	margin-bottom:0.5%;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+.card_user .header_user{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.card_user:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.data{
+	float:left;
+	margin-top: 3%;
+	max-width:30%;
+	margin-left:20%;
+	min-width: 25%;
+	position:absolute;
+	overflow: hidden;
+
+}
+.data2{
+	float:left;
+	margin-top: 2.7%;
+	max-width:45%;
+	margin-left:50%;
+	position:absolute;
+}
+.data3{
+    max-width:20%;
+	margin-left:80%;
+	position:absolute;
+}
+.data4{
+	float:right;
+	margin-right:3%;
+	margin-top:7%;
+}
+
+.button_users {
+	transition-duration: 0.4s;  
+	background-color: #f19532; /* Green */
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 2px; 
+	text-align: center;
+	display: block;
+	font-size: 15px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white; 
+	color: black; 
+	border: 2px solid #f19532;
+	width: 75px;
+	border-radius: 100px;
+	margin-bottom: 5px;
+	font-family: OpenSansLight;
+}
+.usersControl_panel{
+	width:50%;
+	margin-left:25%;
+	
+}
+  
+.button_users:hover {
+	background-color: #f19532; /* Green */
+	color: white;
+}
+
+.button_users .header_user{
+	font-size: 15px;
+	font-family: OpenSansLight;
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+  width:140px;
+  float:left;
+	padding:0;
+	margin-left:0;
+	margin-top:0;
+}
+.fa-trash-alt{
+    color: #da8874fa;
+    padding-left: 30%;
+    
+}
+.fa-trash-alt:hover{
+  color: red;
+}
+
+div#buttons{
+width: 20%;
+margin-left:45%;
+}
+
+
+.currentbuttonpage{
+
+	background-color: #f19532;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 100%;
+    width:27px;
+	height:27px;
+  
+} 
+.buttonpage{
+
+	background-color: #f1953286;
+	border: none;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border-radius: 100%;
+    width:27px;
+	height:27px;
+  
+}
+.buttonpage:hover{
+	background-color: #f19532;
+	cursor:pointer;
+
+}
